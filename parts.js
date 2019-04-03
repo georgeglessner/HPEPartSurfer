@@ -35,8 +35,10 @@ router.get('/:id', function (req, res) {
                     } 
                 }
             });
-            res.send(`Results:${JSON.stringify(resultsArray)}`);
-         });
+
+            res.setHeader('Content-Type', 'application/json');
+            res.end(JSON.stringify(resultsArray));
+        });
 });
 
 module.exports = router;
