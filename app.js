@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-var UserController = require('./parts');
-app.use('/hpe/part', UserController);
+var PartsController = require('./parts');
+app.use('/hpe/part', PartsController);
 
 module.exports = app;
