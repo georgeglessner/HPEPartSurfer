@@ -36,8 +36,8 @@ router.get('/:id', function (req, res) {
                 }
             });
 
-            res.setHeader('Content-Type', 'application/json');
-            res.end(JSON.stringify(resultsArray));
+            // res.setHeader('Content-Type', 'application/json');
+            res.json(resultsArray);
         });
 });
 
