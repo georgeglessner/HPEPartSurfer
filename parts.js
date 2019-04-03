@@ -13,10 +13,12 @@ var baseurl = 'https://partsurfer.hpe.com/Search.aspx?searchText='
 var bodyHtml = '';
 var headingArray = ['Matching Spare Parts', 'Assembly Part Number', 'Part Description', 'Qty'];
 var count = 0;
-var results = {};
-var resultsArray = [];
 
 router.get('/:id', function(req, res) {
+    
+    var results = {};
+    var resultsArray = [];
+
     request({
             uri: baseurl + req.params.id
         },
