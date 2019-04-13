@@ -33,7 +33,7 @@ router.get('/:id', function(req, res) {
                         } else if (count == 1) {
                             results['Description'] = $(this).text();
                         } else if (count == 2) {
-                            results['Count'] = $(this).text();
+                            results['Quantity'] = $(this).text();
                             resultsArray.push(results);
                             results = {};
                             count = -1;
