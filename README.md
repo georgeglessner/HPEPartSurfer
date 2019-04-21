@@ -1,4 +1,5 @@
-# HPE Partsurfer API
+# HPE PartSurfer API
+This is a simple API to retrieve information about a specific part as well as the Component BOM's of that part. 
 
 ## Usage
 
@@ -10,9 +11,6 @@
 The servive will then be runing at `localhost:5000/hpe/part/{partNumber}`
 
 ## Example
-- Endpoint
-	- `http://68.2.92.148:5000/hpe/part/{partNumber}`
-
 - Example Endpoint
 	- `http://68.2.92.148:5000/hpe/part/2m202602PG`
 
