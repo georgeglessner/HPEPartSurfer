@@ -8,7 +8,7 @@ This is a simple API to retrieve information about a specific part as well as th
 - `npm install`
 - `npm start`
 
-The servive will then be runing at `localhost:5000/hpe/part/{partNumber}`
+The service will then be runing at `localhost:5000/hpe/part/{partNumber}`
 
 ## Example
 - Example Endpoint
