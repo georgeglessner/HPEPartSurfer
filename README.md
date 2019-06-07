@@ -12,7 +12,7 @@ The service will then be runing at `localhost:5000/hpe/part/{partNumber}`
 
 ## Example
 - Example Endpoint
-	- `http://68.2.92.148:5000/hpe/part/2m202602PG`
+	- `http://pi-gmg-1.duckdns.org:5000/hpe/part/2m202602PG`
 
 - Compare to HPE Part Surfer
 	- `https://partsurfer.hpe.com/Search.aspx?searchText=2m202602PG`
